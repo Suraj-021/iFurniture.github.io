@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(95, 90, 90);
+}
+.featurette-heading{
+    font-size: 5rem;
+}
+
+.nav-link{
+    color:white;
+}
+
+
+.card{
+    width: 80%;
+
+}
+
+h5.card-title{
+    color: rgb(173, 103, 27);
+}
+
+@media screen and (min-width:280px) {
+    .card{
+        width: 15rem;
+    }
+}
+
+.footer-img{
+    width: 5rem;
+    flex-direction: column;
+}
+
+footer .footer-ul{
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:700px) {
+    footer .row{
+        flex-direction: column;
+    }
+}
